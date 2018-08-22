@@ -1,0 +1,33 @@
+html {
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+}
+
+h1 {
+    font-family: Lato;
+    font-size: 50px;
+}
+
+@media screen and (max-width: 800px) {
+    .article-main {
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .article-main {
+        width: 80%;
+    }
+    
+    h1, .mini-title-div h1 {
+        font-size: 30px;
+    }
+    
+    p {
+        font-size: 14px;
+    }
+}
